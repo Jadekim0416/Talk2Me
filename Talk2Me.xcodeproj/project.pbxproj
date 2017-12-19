@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350DEB9D05714AF75CFB6973 /* Pods_Talk2Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19407F385502E60DF00C4114 /* Pods_Talk2Me.framework */; };
+		B4011B1D1FE7B3B1002F8815 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4011B1C1FE7B3B1002F8815 /* SignInVC.swift */; };
+		B41066511FE7E1EE00928609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B41066501FE7E1EE00928609 /* GoogleService-Info.plist */; };
+		B41066531FE8600600928609 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41066521FE8600600928609 /* HomeVC.swift */; };
+		B41066551FE871A100928609 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41066541FE871A100928609 /* ChatVC.swift */; };
+		B41066571FE872C300928609 /* ChatDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41066561FE872C300928609 /* ChatDetailCell.swift */; };
+		B41066591FE8739D00928609 /* ChatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41066581FE8739D00928609 /* ChatDetail.swift */; };
+		B410665B1FE89F6E00928609 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410665A1FE89F6E00928609 /* MessageVC.swift */; };
 		B48B69F31FD6444100E6CC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B69F21FD6444100E6CC41 /* AppDelegate.swift */; };
-		B48B69F51FD6444100E6CC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B69F41FD6444100E6CC41 /* ViewController.swift */; };
+		B48B69F51FD6444100E6CC41 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B69F41FD6444100E6CC41 /* LoginVC.swift */; };
 		B48B69F81FD6444100E6CC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48B69F61FD6444100E6CC41 /* Main.storyboard */; };
-		B48B69FA1FD6444100E6CC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48B69F91FD6444100E6CC41 /* Assets.xcassets */; };
 		B48B69FD1FD6444100E6CC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48B69FB1FD6444100E6CC41 /* LaunchScreen.storyboard */; };
+		B4D261E11FE6214700D8E260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D261E01FE6214700D8E260 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19407F385502E60DF00C4114 /* Pods_Talk2Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk2Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FA69F6CB4370FCF5D9E70C /* Pods-Talk2Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk2Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me.debug.xcconfig"; sourceTree = "<group>"; };
+		B4011B1C1FE7B3B1002F8815 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		B41066501FE7E1EE00928609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B41066521FE8600600928609 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B41066541FE871A100928609 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		B41066561FE872C300928609 /* ChatDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailCell.swift; sourceTree = "<group>"; };
+		B41066581FE8739D00928609 /* ChatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetail.swift; sourceTree = "<group>"; };
+		B410665A1FE89F6E00928609 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		B48B69EF1FD6444100E6CC41 /* Talk2Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk2Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48B69F21FD6444100E6CC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B48B69F41FD6444100E6CC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B48B69F41FD6444100E6CC41 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B48B69F71FD6444100E6CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B48B69F91FD6444100E6CC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48B69FC1FD6444100E6CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48B69FE1FD6444100E6CC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D261E01FE6214700D8E260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1A18D298A44DD48098C35A6 /* Pods-Talk2Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk2Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350DEB9D05714AF75CFB6973 /* Pods_Talk2Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310DE4D452073602093D8A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91FA69F6CB4370FCF5D9E70C /* Pods-Talk2Me.debug.xcconfig */,
+				E1A18D298A44DD48098C35A6 /* Pods-Talk2Me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B48B69E61FD6444100E6CC41 = {
 			isa = PBXGroup;
 			children = (
 				B48B69F11FD6444100E6CC41 /* Talk2Me */,
 				B48B69F01FD6444100E6CC41 /* Products */,
+				310DE4D452073602093D8A38 /* Pods */,
+				F4C61233A3E6A5A6EEE1E561 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,53 @@
 		B48B69F11FD6444100E6CC41 /* Talk2Me */ = {
 			isa = PBXGroup;
 			children = (
+				B4D261DF1FE616AB00D8E260 /* Controller */,
+				B4D261DE1FE6169D00D8E260 /* View */,
+				B4D261DD1FE6167C00D8E260 /* Model */,
 				B48B69F21FD6444100E6CC41 /* AppDelegate.swift */,
-				B48B69F41FD6444100E6CC41 /* ViewController.swift */,
 				B48B69F61FD6444100E6CC41 /* Main.storyboard */,
-				B48B69F91FD6444100E6CC41 /* Assets.xcassets */,
 				B48B69FB1FD6444100E6CC41 /* LaunchScreen.storyboard */,
 				B48B69FE1FD6444100E6CC41 /* Info.plist */,
+				B41066501FE7E1EE00928609 /* GoogleService-Info.plist */,
+				B4D261E01FE6214700D8E260 /* Images.xcassets */,
 			);
 			path = Talk2Me;
+			sourceTree = "<group>";
+		};
+		B4D261DD1FE6167C00D8E260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B41066581FE8739D00928609 /* ChatDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4D261DE1FE6169D00D8E260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B41066561FE872C300928609 /* ChatDetailCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4D261DF1FE616AB00D8E260 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B48B69F41FD6444100E6CC41 /* LoginVC.swift */,
+				B4011B1C1FE7B3B1002F8815 /* SignInVC.swift */,
+				B41066521FE8600600928609 /* HomeVC.swift */,
+				B41066541FE871A100928609 /* ChatVC.swift */,
+				B410665A1FE89F6E00928609 /* MessageVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4C61233A3E6A5A6EEE1E561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19407F385502E60DF00C4114 /* Pods_Talk2Me.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48B6A011FD6444100E6CC41 /* Build configuration list for PBXNativeTarget "Talk2Me" */;
 			buildPhases = (
+				E6429CB883937E372FC79BC6 /* [CP] Check Pods Manifest.lock */,
 				B48B69EB1FD6444100E6CC41 /* Sources */,
 				B48B69EC1FD6444100E6CC41 /* Frameworks */,
 				B48B69ED1FD6444100E6CC41 /* Resources */,
+				EA051D098E4917382B3B96C3 /* [CP] Embed Pods Frameworks */,
+				5E3C8CB9F27D84326E67A1CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +168,7 @@
 				TargetAttributes = {
 					B48B69EE1FD6444100E6CC41 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +196,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D261E11FE6214700D8E260 /* Images.xcassets in Resources */,
+				B41066511FE7E1EE00928609 /* GoogleService-Info.plist in Resources */,
 				B48B69FD1FD6444100E6CC41 /* LaunchScreen.storyboard in Resources */,
-				B48B69FA1FD6444100E6CC41 /* Assets.xcassets in Resources */,
 				B48B69F81FD6444100E6CC41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E3C8CB9F27D84326E67A1CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6429CB883937E372FC79BC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talk2Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA051D098E4917382B3B96C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B48B69EB1FD6444100E6CC41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48B69F51FD6444100E6CC41 /* ViewController.swift in Sources */,
+				B410665B1FE89F6E00928609 /* MessageVC.swift in Sources */,
+				B4011B1D1FE7B3B1002F8815 /* SignInVC.swift in Sources */,
+				B41066531FE8600600928609 /* HomeVC.swift in Sources */,
+				B48B69F51FD6444100E6CC41 /* LoginVC.swift in Sources */,
 				B48B69F31FD6444100E6CC41 /* AppDelegate.swift in Sources */,
+				B41066571FE872C300928609 /* ChatDetailCell.swift in Sources */,
+				B41066591FE8739D00928609 /* ChatDetail.swift in Sources */,
+				B41066551FE871A100928609 /* ChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +414,17 @@
 		};
 		B48B6A021FD6444100E6CC41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FA69F6CB4370FCF5D9E70C /* Pods-Talk2Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39A5GM4TZ6;
 				INFOPLIST_FILE = Talk2Me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jademrkim.Talk2Me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,8 +432,10 @@
 		};
 		B48B6A031FD6444100E6CC41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A18D298A44DD48098C35A6 /* Pods-Talk2Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39A5GM4TZ6;
 				INFOPLIST_FILE = Talk2Me/Info.plist;
